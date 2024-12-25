@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.mainDiv {
+    display: flex;
+}
+.mainMenuDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-top: 12px;
+    width: 104px;
+    background-color: #E7EEFF;
+}
+.logomarkDiv {
+    display: flex;
+    border-bottom: 1px solid #002B81;
+}
+.logomarkImg {
+    width: 48px;
+    height: 48px;
+}
+.menuDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.mainSearchDiv {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E7EEFF;
+    width: 100%;
+    height: 80px;
+}
+.searchDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.searchIcon {
+    width: 24px;
+    height: 24px;
+}
+.searchForm {
+    display: flex;
+    align-items: center;
+}
+.searchInput {
+    border: none;
+    background-color: #E7EEFF;
+    outline: none;
+    width: 290px;
+    height: 28px;
+    
+}
+.searchInput::placeholder {
+    color: #000000;
+    line-height: 28px;
+}
+
+.brooklynP {
+    font-weight: 500;
+    color: #5E6577;
+}
+.girlDiv {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.girlImg {
+    width: 40px;
+    height: 40px;
+}
+.contentDiv {
+    display: flex;
+    max-width: 1144px;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+.fullContentDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 42px;
+}
+
+.searchDetails {
+    display: flex;
+    gap: 30px;
+    height: 44px;
+}
+.detailDiv{
+    display: flex;
+    padding: 8px 24px 8px 12px;
+    background-color: #E7EEFF;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.PForDetail {
+    color: #323232;
+}
+
+.mainCardDiv {
+    display: flex;
+    gap: 42px;
+}
+.cardDiv {
+    display: flex;
+    flex-direction: column;
+}
+.cardDesc {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 12px;
+    gap: 4px;
+    background-color: #E7EEFF;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+.cardDescP1 {
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+.cardDescP2 {
+    font-size: 14px;
+    line-height: 30px;
+    color: #606060;
+}
